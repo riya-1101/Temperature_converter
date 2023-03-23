@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.temperature_app.Controller">
+    <children>
+        <Pane prefHeight="346.0" prefWidth="434.0">
+            <children>
+                <Label fx:id="welcomeLabel" layoutX="151.0" layoutY="21.0" prefHeight="35.0" prefWidth="140.0" text="WELCOME" textAlignment="RIGHT">
+                    <font>
+                        <Font name="Droid Serif Bold" size="22.0" />
+                    </font>
+                    <padding>
+                        <Insets top="30.0" />
+                    </padding>
+                </Label>
+                <TextField fx:id="tempratureTEXT" alignment="CENTER" layoutX="121.0" layoutY="181.0" prefHeight="33.0" prefWidth="198.0" promptText="Enter the temprature" />
+                <ChoiceBox fx:id="choiceBox" layoutX="121.0" layoutY="121.0" prefHeight="33.0" prefWidth="198.0" />
+                <Button fx:id="Convertbtn" layoutX="154.0" layoutY="247.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="133.0" text="Convert" />
+            </children>
+        </Pane>
+    </children>
+</VBox>
